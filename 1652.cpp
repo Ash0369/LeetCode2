@@ -36,7 +36,8 @@ public:
                 }
                 dp.push_back(s);
             }
-            else{
+            else
+            {
                 dp.push_back(0);
             }
         }
