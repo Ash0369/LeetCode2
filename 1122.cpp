@@ -22,6 +22,7 @@ public:
             {
                 ans.push_back(x.first);
                 mp[x.first]--;
+                
             }
         }
         return ans;
