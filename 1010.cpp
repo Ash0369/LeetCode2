@@ -8,7 +8,7 @@ public:
             int z=x%60;
             if(z>0)
             {
-                int need=60-z;
+                 int need=60-z;
                 ans+=mp[need];
             }
             else{
