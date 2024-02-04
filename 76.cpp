@@ -18,7 +18,6 @@ public:
         map<char,int>dp;
         for(auto x:t)
         {
-            //cout<<x<<endl;
             dp[x]++;
         }
         int left=0;
@@ -27,7 +26,6 @@ public:
         map<char,int>curr;
         for(int right=0;right<n;right++)
         {
-            //cout<<right<<endl;
             curr[s[right]]++;
             
             while(check(curr,dp) && left<=right)
