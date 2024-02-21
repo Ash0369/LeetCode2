@@ -8,7 +8,6 @@ public:
         int right=n-1;
         
         int ans=left;
-        
         while(left<=right)
         {
             int mid=(left+right)/2;
