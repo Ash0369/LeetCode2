@@ -11,7 +11,8 @@ public:
                  int need=60-z;
                 ans+=mp[need];
             }
-            else{
+            else
+            {
                 int need=0;
                 ans+=mp[need];
             }
